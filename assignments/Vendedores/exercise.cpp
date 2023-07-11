@@ -92,7 +92,7 @@ void registrarVentas(Vendedor listaVend[], int cantVend) {
     // Registra las ventas de un vendedor de la lista de vendedores existentes
     std::string nombreVend;
     double ventas;
-    std::cout << "Ingrese el nombre del vendedor: ";
+    std::cout << "Ingrese el nombre del vendedosr: ";
     std::cin.ignore();
     std::getline(std::cin, nombreVend);
     int index = -1;
